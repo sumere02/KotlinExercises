@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BlockchainApp</string>
+    <string name="currency">currency</string>
+    <string name="value">value</string>
+</resources>

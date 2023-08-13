@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125dp"
+            android:layout_height="166dp"
+            android:contentDescription="kenny"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="eric"
+            app:srcCompat="@drawable/eric" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="kyle"
+            app:srcCompat="@drawable/kyle" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="stan"
+            app:srcCompat="@drawable/stan" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

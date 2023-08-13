@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InstagramCloneJava</string>
+    <string name="comment">Comment</string>
+    <string name="enter_image_file">Enter Image File</string>
+    <string name="image_file">Image File</string>
+    <string name="upload">Upload</string>
+    <string name="useremail">useremail</string>
+    <string name="user_comment">User Comment</string>
+</resources>

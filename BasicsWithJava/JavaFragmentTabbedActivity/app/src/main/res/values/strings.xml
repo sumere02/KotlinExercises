@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JavaFragmentTabbedActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Fragment 1</string>
+    <string name="tab_text_2">Fragment 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_user_in_fragment_1">Enter User in Fragment 1</string>
+</resources>

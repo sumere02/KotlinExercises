@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/substractButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="53dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="subtract"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/divideButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addButton"
+        app:layout_constraintTop_toBottomOf="@+id/number2Text" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="multiply"
+        android:text="*"
+        app:layout_constraintBaseline_toBaselineOf="@+id/divideButton"
+        app:layout_constraintEnd_toStartOf="@+id/divideButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="divide"
+        android:text="/"
+        app:layout_constraintBottom_toTopOf="@+id/resultText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/multiplyButton"
+        app:layout_constraintTop_toBottomOf="@+id/substractButton" />
+
+    <EditText
+        android:id="@+id/resultText"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Result"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divideButton" />
+
+    <EditText
+        android:id="@+id/number2Text"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="Number 2"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/substractButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number1Text" />
+
+    <EditText
+        android:id="@+id/number1Text"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="53dp"
+        android:ems="10"
+        android:hint="Number 1"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/number2Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="add"
+        android:text="+"
+        app:layout_constraintEnd_toStartOf="@+id/substractButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number2Text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

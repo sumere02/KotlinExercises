@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ArtBook</string>
+    <string name="enter_year">Enter Year</string>
+    <string name="save">Save</string>
+    <string name="enter_artist_name">Enter Artist Name</string>
+    <string name="enter_art_name">Enter Art Name</string>
+    <string name="test">Test</string>
+</resources>
